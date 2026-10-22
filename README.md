@@ -1,45 +1,85 @@
-# Warehouse Box Loading and Unloading System Using Stack
+# 📦 Warehouse Box Stack System
+### A Java-Based Stack Data Structure Project
 
-A Data Structures mini project demonstrating the Stack data structure and the Last In, First Out (LIFO) principle. This package includes a Java console implementation and a separate responsive web interface.
+**Name:** Niya Jimmy  
+**Roll Number:** 30  
+**Class:** S3 CSE  
 
-## Files
-- `WarehouseBoxSystem.java` — Java implementation using `java.util.Stack`.
-- `index.html` — Web dashboard structure.
-- `style.css` — Dark dashboard styling and responsive layout.
-- `script.js` — Browser-side stack operations and activity log.
-- `README.md` — Project documentation.
-- `OUTPUT.pdf` — Optional: add your screenshots/output report here before submission.
+---
 
-## Web Interface: Run
-1. Keep `index.html`, `style.css`, and `script.js` in the same folder.
-2. Double-click `index.html` to open it in Chrome, Edge, Firefox, or another modern browser.
-3. No server or internet connection is required for local testing.
+## 📌 Project Description
 
-## Java Program: Run
-Install JDK 8 or later, open a terminal in this folder, and run:
+The Warehouse Box Stack System is a Java-based application designed to manage boxes stored in a warehouse using the Stack data structure. It follows the **LIFO (Last In, First Out)** principle, where the last box added is the first box removed.
 
-```bash
-javac WarehouseBoxSystem.java
-java WarehouseBoxSystem
-```
+The project provides a simple and user-friendly interface to add, remove, view, and display boxes. It demonstrates how stack operations can be applied to real-world warehouse management.
 
-## Features
-- Push: load a box onto the stack.
-- Pop: unload the most recently loaded box.
-- Peek: view the top box without removing it.
-- Display: show boxes from top to bottom.
-- Empty/status check.
-- Web dashboard includes demo boxes, quick-add buttons, and an activity log.
+## 🎯 Objectives
 
-## Data Structure
-The Java program uses `Stack<String>`. The web interface models the same LIFO behavior with a JavaScript array and its `push()` and `pop()` operations.
+- To understand and implement the Stack data structure.
+- To perform basic stack operations using Java.
+- To simulate box storage and retrieval in a warehouse.
+- To provide a visual interface for managing stacked boxes.
 
-## Before Submission
-- Add your name and class details if required by your instructor.
-- Test the Java program and web interface.
-- Upload all required files to your public GitHub repository.
-- If your instructor requires Java only, keep the Java source as the main implementation and treat the website as an optional visualization.
-- Add `OUTPUT.pdf` only if you have prepared a real output/report PDF; do not submit an empty placeholder.
+## ⚙️ Features
 
-## Author
-Add your name and class details here.
+### 1. Push — Add a Box
+Adds a new box to the top of the stack.
+
+### 2. Pop — Remove a Box
+Removes the topmost box from the stack.
+
+### 3. Peek — View the Top Box
+Displays the topmost box without removing it.
+
+### 4. Display Boxes
+Shows all boxes currently stored in the stack, from top to bottom.
+
+### 5. Empty Stack Check
+Checks whether the stack is empty before performing operations.
+
+### 6. Web Dashboard
+Provides a visual dashboard with sample boxes, quick-add buttons, and an activity log to demonstrate stack operations.
+
+## 🛠️ Technologies Used
+
+- **Java:** Implements the main stack operations.
+- **HTML:** Structures the web interface.
+- **CSS:** Styles the dashboard and box display.
+- **JavaScript:** Handles interactive operations in the web interface.
+- **GitHub:** Stores and manages the project source code.
+
+## 🧠 Data Structure Used
+
+The project uses the **Stack** data structure.
+
+- **Principle:** LIFO (Last In, First Out)
+- **Java implementation:** `Stack<String>`
+- **Push operation:** Adds an element.
+- **Pop operation:** Removes the top element.
+- **Peek operation:** Returns the top element without removing it.
+
+## 💻 How to Run the Project
+
+1. Clone or download this GitHub repository.
+2. Open the project folder in your preferred code editor.
+3. Compile and run the Java source file using a Java Development Kit (JDK).
+4. Open the HTML file in a web browser to use the web dashboard, if included.
+
+## 🌟 Applications
+
+- Warehouse box storage simulation.
+- Understanding stack-based inventory handling.
+- Learning basic data structure operations.
+- Demonstrating LIFO behavior in real-world scenarios.
+
+## 📚 Conclusion
+
+The Warehouse Box Stack System demonstrates the practical use of the Stack data structure through a warehouse simulation. It combines Java programming with a web-based visualization to make stack operations easier to understand and use.
+
+---
+
+## 👩‍💻 Author
+
+**Niya Jimmy**  
+Roll Number: 30  
+Department: Computer Science and Engineering (S3 CSE)
